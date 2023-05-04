@@ -1,0 +1,164 @@
+img {
+  width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.func {
+  border-radius: 10px;
+  border: 1px solid #bebec7;
+  margin: 0 19px;
+  padding: 2px 15px 10px;
+}
+
+h3 {
+  margin: 0;
+}
+
+.heat_search {
+  width: 50px;
+  text-align: center;
+  background: url('../../static/images/bg1.png') 0% 0% / 100% 100% no-repeat;
+  padding: 0 10px;
+  font-size: 17px;
+  font-weight: normal;
+  color: #515a6e;
+}
+
+.number_rules {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.number_rules li {
+  margin: 9px 8px 0 10px;
+}
+
+.number_item {
+  font-size: 15px;
+  line-height: 24px;
+  background-color: hsla(0, 0%, 100%, .2);
+  border-radius: 4px;
+  padding: 0 10px;
+  color: #fff;
+  margin: 2px 0;
+}
+
+.number_item_click {
+  font-size: 15px;
+  line-height: 24px;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 0 10px;
+  color: black;
+  margin: 2px 0;
+}
+
+.search_list {
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.search {
+  width: 100%;
+  border-radius: 25px;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+}
+
+.search input {
+  width: 100%;
+  font-size: 14px;
+  line-height: 20px;
+  color: #323233;
+  text-align: center;
+  padding: 10px 10px;
+  border: 0;
+  outline: none;
+}
+
+.search button {
+  color: rgb(81, 90, 110);
+  background-color: rgb(255, 213, 123);
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 25px;
+  width: 100px;
+  border: 0;
+}
+
+.number_list {
+  background-color: rgb(255, 255, 255);
+  padding: 9px 8px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.number_list li {
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 1px 0 3px #d5cec6;
+  background: #fff url('../../static/images/liantong.png') no-repeat right center;
+  background-size: auto 100%;
+  box-sizing: border-box;
+  padding: 4px 0 10px;
+  width: 179px;
+  height: 57px;
+  margin: 5px 0;
+}
+
+.number_list li h3 {
+  font-size: 17px;
+  line-height: 20px;
+  color: rgb(92, 92, 119);
+  font-weight: 700;
+  margin-left: -43px;
+}
+
+.number_list li p {
+  margin-top: 7px;
+  font-size: 12.5px;
+  line-height: 10px;
+  color: rgb(254, 67, 101);
+  padding: 0 6px 0 9px;
+}
+
+.number_list li p s {
+  color: #8391a5;
+  float: left;
+}
+
+.number_list li p i {
+  color: #ef9117;
+  float: right;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.card_details {
+  padding: 20px 20px 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.card_details button {
+  background-color: rgb(255, 213, 123);
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  border-radius: 25px;
+  text-align: center;
+  padding: 12px 56px;
+  border: 0;
+}
