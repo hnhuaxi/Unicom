@@ -5,6 +5,12 @@ import Declare from "../pages/Home/Children/Declare/Declare";
 const routers = [
   {
     path: "/",
+    exact: true,
+    element: <Home />,
+  },
+  {
+    path: "/index.html",
+    exact: true,
     element: <Home />,
   }, {
     path: "/agree",
